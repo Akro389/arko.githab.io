@@ -24,41 +24,41 @@ function submit(event){
         }
 	}
     if(check) {
-        alert("Заполните все поля.");
+        alert("Р—Р°РїРѕР»РЅРёС‚Рµ РІСЃРµ РїРѕР»СЏ.");
         return;
     }
     let template = new RegExp("^3[47][0-9]{13}$|^5[1-5][0-9]{14}$");
     if(!template.test(document.data.creditcard.value))
     {
         document.data.creditcard.style = "border: solid 1px red";
-        alert("Неправильный ввод номера карты.\nОсталось попыток: " + --x);
+        alert("РќРµРїСЂР°РІРёР»СЊРЅС‹Р№ РІРІРѕРґ РЅРѕРјРµСЂР° РєР°СЂС‚С‹.\nРћСЃС‚Р°Р»РѕСЃСЊ РїРѕРїС‹С‚РѕРє: " + --x);
         if(!x) for(let input of document.form1) input.disabled = 'true';
         return;
     }
-    template.compile("^([А-Я]{1}[а-яё]{1,23}|[A-Z]{1}[a-z]{1,23})$");
+    template.compile("^([Рђ-РЇ]{1}[Р°-СЏС‘]{1,23}|[A-Z]{1}[a-z]{1,23})$");
     if(!template.test(document.data.firstname.value)){
         check = true;
         document.data.firstname.style = "border: solid 1px red";
-        alert("Неправильный ввод имени.");
+        alert("РќРµРїСЂР°РІРёР»СЊРЅС‹Р№ РІРІРѕРґ РёРјРµРЅРё.");
     }
     if(!template.test(document.data.lastname.value)){
         check = true;
         document.data.lastname.style = "border: solid 1px red";
-        alert("Неправильный ввод фамилии.");
+        alert("РќРµРїСЂР°РІРёР»СЊРЅС‹Р№ РІРІРѕРґ С„Р°РјРёР»РёРё.");
     }
     template.compile("^(0[0-9]{9})$");
     if(!template.test(document.data.number.value)){
         check = true;
         document.data.number.style = "border: solid 1px red";
-        alert("Телефон введен неправильно или добавлен приставка (38)");
+        alert("РўРµР»РµС„РѕРЅ РІРІРµРґРµРЅ РЅРµРїСЂР°РІРёР»СЊРЅРѕ РёР»Рё РґРѕР±Р°РІР»РµРЅ РїСЂРёСЃС‚Р°РІРєР° (38)");
     }
     template.compile("^[\.\-_A-Za-z0-9]+?@[\.\-A-Za-z0-9]+?\.[A-Za-z0-9]{2,6}");
     if(!template.test(document.data.mail.value)){
         check = true;
         document.data.mail.style = "border: solid 1px red";
-        alert("Неправильный ввод почты.");
+        alert("РќРµРїСЂР°РІРёР»СЊРЅС‹Р№ РІРІРѕРґ РїРѕС‡С‚С‹.");
     }
-    if(!check) alert("Форма отправлена");
+    if(!check) alert("Р¤РѕСЂРјР° РѕС‚РїСЂР°РІР»РµРЅР°");
 }
 function find(){
 	let s = document.search.tearea.value;
@@ -72,8 +72,3 @@ function find(){
     let res = "";
 	let template = new RegExp(inputs,"g");
 	for(let word of s.match(template))
-	{
-        res += word.trim() +" ";
-    }
-    document.querySelector('#tarea2').innerHTML = res;
-}
