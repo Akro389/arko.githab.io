@@ -46,24 +46,24 @@
         </nav>
         <div id = "imgs">
             <img id = "img1" src = "imgs\1.jpg">
-            <figcaption id = "t1">Картинка 1</figcaption>
+            <figcaption id = "t1">РљР°СЂС‚РёРЅРєР° 1</figcaption>
             <img id = "img2" src = "imgs\2.jpg">
-            <figcaption id = "t2">Картинка 2</figcaption>
+            <figcaption id = "t2">РљР°СЂС‚РёРЅРєР° 2</figcaption>
             <img id = "img3" src = "imgs\3.jpg">
-            <figcaption id = "t3">Картинка 3</figcaption>
+            <figcaption id = "t3">РљР°СЂС‚РёРЅРєР° 3</figcaption>
             <img id = "img4" src = "imgs\4.jpg">
-            <figcaption id = "t4">Картинка 4</figcaption>
+            <figcaption id = "t4">РљР°СЂС‚РёРЅРєР° 4</figcaption>
         </div>
         <div id="input1">
-            <p><strong>Введите номер картинки</strong></p>
+            <p><strong>Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РєР°СЂС‚РёРЅРєРё</strong></p>
             <p><input id = "inp_1" maxlength="1" placeholder="1" name="a"></p>
         </div>
         <div id="input2">
-            <p><strong>Введите номер картинки</strong></p>
+            <p><strong>Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РєР°СЂС‚РёРЅРєРё</strong></p>
             <p><input id = "inp_2" maxlength="1" placeholder="2" name="b"></p>
         </div>
         <div id="button">
-            <p>Переставить</p>
+            <p>РџРµСЂРµСЃС‚Р°РІРёС‚СЊ</p>
         </div>
         <script src = "exercise.js"></script>
     </body>
