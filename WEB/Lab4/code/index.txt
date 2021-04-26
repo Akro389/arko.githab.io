@@ -4,41 +4,41 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width = device-width, initial-scale=1.0">
-        <title>Лабораторная работа 4</title>
+        <title>Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР°СЏ СЂР°Р±РѕС‚Р° 4</title>
         <link href="exercise.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <form name="data">
         <div>
             <div>
-                <p><strong>Имя</strong></p>
+                <p><strong>РРјСЏ</strong></p>
                 <input type="text" name="firstname">
             </div>
             <div>
-                <p><strong>Фамилия</strong></p>
+                <p><strong>Р¤Р°РјРёР»РёСЏ</strong></p>
                 <input type="text" name="lastname">
             </div>
             <div>
-                <p><strong>Наименование организации</strong></p>
+                <p><strong>РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё</strong></p>
                 <input type="text" name="organization">
             </div>
             <div>
-                <p><strong>Номер кредитной карты</strong></p>
+                <p><strong>РќРѕРјРµСЂ РєСЂРµРґРёС‚РЅРѕР№ РєР°СЂС‚С‹</strong></p>
                 <input type="text" name="creditcard">
             </div>
             <div>
-                <p><strong>Номер телефона</strong></p>
+                <p><strong>РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°</strong></p>
                 <input type="text" name="number">
             </div>
             <div>
-                <p><strong>Адрес электронной почты</strong></p>
+                <p><strong>РђРґСЂРµСЃ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹</strong></p>
                 <input type="text" name="mail">
             </div>
             <div id="t1">
-                <input type="submit" name="send" value="Отправить">
+                <input type="submit" name="send" value="РћС‚РїСЂР°РІРёС‚СЊ">
             </div>
             <div id="t2">
-                <input type="reset" name="reset" value="Очистить">
+                <input type="reset" name="reset" value="РћС‡РёСЃС‚РёС‚СЊ">
             </div>
         </div>
         </form>
@@ -61,7 +61,7 @@
                 <p><input type="radio" name="rad" checked value="abbbba">abbbba</p>
             </div>
             <div id="but">
-                <input type="button" value="Поиск">
+                <input type="button" value="РџРѕРёСЃРє">
             </div>
         </div>
         <script src = "exercise.js"></script>
