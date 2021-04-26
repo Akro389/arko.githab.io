@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width = device-width, initial-scale=1.0">
-        <title>Лабораторная работа 4</title>
+        <title>Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР°СЏ СЂР°Р±РѕС‚Р° 4</title>
         <link href="exercise.css" rel="stylesheet" type="text/css">
         <script src = "jQuery.js"></script>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
@@ -15,7 +15,7 @@
             </div>
         </div>
         <div>
-        <button id="but">Начать</button>    
+        <button id="but">РќР°С‡Р°С‚СЊ</button>    
         </div>
         <script src = "exercise.js"></script>
     </body>
