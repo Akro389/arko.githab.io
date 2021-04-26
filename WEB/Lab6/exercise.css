@@ -1,0 +1,17 @@
+.square {
+    width: 200px;
+    height: 120px;
+    border: none;
+    display:inline-block;
+    font-size: 16px;
+    margin: 0;
+    opacity: 0;
+}
+#lab6 {
+    height: 300px;
+}
+#but {
+    width: 120px;
+    height: 40px;
+    margin-left: 47%;
+}

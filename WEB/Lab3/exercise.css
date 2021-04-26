@@ -1,0 +1,73 @@
+#table{  
+     width: 100%;
+     height: 300px;
+     text-align: center;
+     border-color: plum;
+}
+#windows{
+    background: white;
+    color: black;
+    cursor: default;
+}
+#table{
+    cursor: pointer;
+}
+#t1{
+ background: #FFFF00;
+}
+#t2{
+ background: #FF0000;
+}
+#t3{
+ background: #FF0066;
+}
+#t4{
+ background: #993399;
+}
+#t5{
+ background: #9933FF;
+}
+#t6{
+ background: #330033;
+}
+#t7{
+ background: #003333;
+}
+#t8{
+ background: #00FFFF;
+}
+#t9{
+ background: #006633;
+}
+#t10{
+ background: #00FF99;
+}
+#t11{
+ background: #339933;
+}
+#t12{
+ background: #00FF00;
+}
+#t13{
+ background: #CCFF33;
+}
+#t14{
+ background: #333300;
+}
+#t15{
+ background: #FFFFFF;
+}
+#t16{
+ background: #000000;
+ color: white;
+}
+#colors{
+    margin-top: 20px;
+    width: 700px;
+    height: 20px;
+}
+#backgrounds{
+    margin-top: 20px;
+    width: 700px;
+    height: 20px;
+}

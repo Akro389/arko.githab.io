@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: pink;    
+}
+
+#img1{
+    position: absolute;
+    text-align: center;
+    left: 250px;
+    top: 20px;
+    z-index: -1;
+}
+
+#img1{
+    width: 200px;
+    height: 200px;
+}
+#t1{
+    position: absolute;
+    text-align: center;
+    left: 310px;
+    top: 220px;
+    z-index: -1;
+}
+#img2{
+    position: absolute;
+    text-align: center;
+    left: 460px;
+    top: 20px;
+    z-index: -1;
+}
+
+#img2{
+    width: 200px;
+    height: 200px;
+}
+#t2{
+    position: absolute;
+    text-align: center;
+    left: 520px;
+    top: 220px;
+    z-index: -1;
+}
+#img3{
+    position: absolute;
+    text-align: center;
+    left: 670px;
+    top: 20px;
+}
+
+#img3{
+    width: 200px;
+    height: 200px;
+}
+#t3{
+    position: absolute;
+    text-align: center;
+    left: 730px;
+    top: 220px;
+}
+#img4{
+    position: absolute;
+    text-align: center;
+    left: 880px;
+    top: 20px;
+}
+#img4{
+    width: 200px;
+    height: 200px;
+}
+#t4{
+    position: absolute;
+    text-align: center;
+    left: 940px;
+    top: 220px;
+}
+#input1{
+    position: absolute;
+    text-align: center;
+    left: 350px;
+    top: 250px;
+    padding: 5px 15px;
+}
+#input2{
+    position: absolute;
+    text-align: center;
+    left: 770px;
+    top: 250px;
+    padding: 5px 15px;
+}
+#button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 1px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 330px 585px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 12px;
+}
+#menu{
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    padding: 0px;      
+    height: 100%; 
+    width: 230px;
+    background-color: palegoldenrod;
+    border-right: solid 2px lightsalmon ;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    border-top: solid 2px lightsalmon;
+}
+.last{    
+    border-bottom: solid 2px lightsalmon;
+}
+.text{
+    cursor: pointer;
+    margin: 0;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    color: black;
+    font-size:x-large;
+    text-indent: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.submenu{
+    position: absolute;
+    margin-top: -2px;
+    display: inline-block;
+    left: 230px;
+    width: 230px;
+    border-right: solid 2px lightsalmon;
+    border-left: solid 2px lightsalmon;
+    background-color: palegoldenrod;  
+    height: 0;
+    overflow: hidden; 
+    opacity: 0; 
+    transition: all 0.5s ease-in;
+}
