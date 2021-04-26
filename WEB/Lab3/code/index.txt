@@ -4,18 +4,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width = device-width, initial-scale=1.0">
-        <title>Лабораторная работа 3</title>
+        <title>Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР°СЏ СЂР°Р±РѕС‚Р° 3</title>
         <link href="exercise.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <table id="table" cellpadding="4" cellspacing="0" border="2" >
             <tr>
-            <th id="windows" colspan="4" rowspan="1">К нам весна шагает<br>
-                                                    Быстрыми шагами,<br>
-                                                    И сугробы тают под её ногами.<br>
-                                                    Чёрные проталины<br>
-                                                    На полях видны.<br>
-                                                    Видно очень тёплые ноги у весны.<br></th>
+            <th id="windows" colspan="4" rowspan="1">Рљ РЅР°Рј РІРµСЃРЅР° С€Р°РіР°РµС‚<br>
+                                                    Р‘С‹СЃС‚СЂС‹РјРё С€Р°РіР°РјРё,<br>
+                                                    Р СЃСѓРіСЂРѕР±С‹ С‚Р°СЋС‚ РїРѕРґ РµС‘ РЅРѕРіР°РјРё.<br>
+                                                    Р§С‘СЂРЅС‹Рµ РїСЂРѕС‚Р°Р»РёРЅС‹<br>
+                                                    РќР° РїРѕР»СЏС… РІРёРґРЅС‹.<br>
+                                                    Р’РёРґРЅРѕ РѕС‡РµРЅСЊ С‚С‘РїР»С‹Рµ РЅРѕРіРё Сѓ РІРµСЃРЅС‹.<br></th>
             </tr>
             <tr>
                 <td id="t1" onclick="color1left(windows)" oncontextmenu="color1right(windows)"></td>
@@ -42,8 +42,8 @@
                 <td id="t16" onclick="color16left(windows)" oncontextmenu="color16right(windows)"></td>
             </tr>
         </table>
-        <div id="colors">Цвет текста в HEX: #000000</div>
-        <div id="backgrounds">Цвет фона в HEX: #FFFFFF</div>
+        <div id="colors">Р¦РІРµС‚ С‚РµРєСЃС‚Р° РІ HEX: #000000</div>
+        <div id="backgrounds">Р¦РІРµС‚ С„РѕРЅР° РІ HEX: #FFFFFF</div>
         <script src = "exercise.js"></script>
     </body>
 </html>
