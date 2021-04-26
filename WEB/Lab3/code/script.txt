@@ -160,8 +160,8 @@ function color16right(windows)
         HEXbackground("#000000");
 }
 function HEXcolors(b){ 
-  document.querySelector("#colors").innerHTML = "Цвет текста в HEX: "+b;
+  document.querySelector("#colors").innerHTML = "Р¦РІРµС‚ С‚РµРєСЃС‚Р° РІ HEX: "+b;
 }
 function HEXbackground(b){ 
-  document.querySelector("#backgrounds").innerHTML =  "Цвет фона в HEX: "+b;
+  document.querySelector("#backgrounds").innerHTML =  "Р¦РІРµС‚ С„РѕРЅР° РІ HEX: "+b;
 }
