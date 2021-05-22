@@ -1,0 +1,16 @@
+table {
+    text-align: center;
+    width: 1100;
+}
+.t1 {
+    width: 100px;
+}
+.t2 {
+    width: 500px;
+}
+.t3 {
+    width: 250px;
+}
+.t4 {
+    width: 100px;
+}

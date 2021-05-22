@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Содержание сайта</title>
+<link rel="stylesheet" type="text/css" href="exercise.css">
+ </head>
+<body>
+<script language="JavaScript" type="text/javascript">
+  var domDocument = new ActiveXObject("Microsoft.XMLDOM");
+  domDocument.async="false";
+  domDocument.load("Lab7.xml");
+  document.write("<table border='1' cellspacing='0' cellpadding='4'><tr><th class='t1'>Фамилия</th><th class='t1'>Имя</th><th class='t1'>Отчество</th><th class='t2'>Адресс</th><th class='t3'>Телефон</th><th class='t4'>Должность</th><th class='t4'>Подразделение</th></tr>");
+  var x = domDocument.getElementsByTagName("DATABASE")[0].childNodes[0];
+  for (i=0; i < 10; i++)
+{ 
+  document.write("<tr><td>");
+  document.write(domDocument.documentElement.getElementsByTagName("SURNAME").item(i).text)
+  document.write("</td><td>");
+  document.write(domDocument.documentElement.getElementsByTagName("NAME").item(i).text)
+  document.write("</td><td>");
+  document.write(domDocument.documentElement.getElementsByTagName("PATRONYMIC").item(i).text)
+  document.write("</td><td>");
+  document.write(domDocument.documentElement.getElementsByTagName("INDEX").item(i).text)
+  document.write(", ")
+  document.write(domDocument.documentElement.getElementsByTagName("TYPESETTLEMENT").item(i).text)
+  document.write(", ")
+  document.write(domDocument.documentElement.getElementsByTagName("REGION").item(i).text)
+  document.write(", ")
+  document.write(domDocument.documentElement.getElementsByTagName("DISTRICT").item(i).text)
+  document.write(", ")
+  document.write(domDocument.documentElement.getElementsByTagName("NAMESETTLEMENT").item(i).text)
+  document.write(", ")
+  document.write(domDocument.documentElement.getElementsByTagName("SREET").item(i).text)
+  document.write(", ")
+  document.write(domDocument.documentElement.getElementsByTagName("NUMBERHOME").item(i).text)
+  if (domDocument.documentElement.getElementsByTagName("HOUSING").item(i).text != '') {
+    document.write(", ")
+    document.write(domDocument.documentElement.getElementsByTagName("HOUSING").item(i).text)
+  }
+  document.write(", ")
+  document.write(domDocument.documentElement.getElementsByTagName("ROOM").item(i).text)
+  document.write("</td><td>");
+  let number = domDocument.documentElement.getElementsByTagName("NUMBER").item(i)
+    document.write("дом. тф.: ");
+    document.write(domDocument.documentElement.getElementsByTagName("HOME").item(i).text)
+    for (let j=0; j<2; j++){
+        if(number.getElementsByTagName("PHONE").item(j).text != "") {
+        document.write("<br>моб. тф.: ")
+        document.write(number.getElementsByTagName("PHONE").item(j).text)
+        }
+    }
+  document.write("</td><td>");
+  document.write(domDocument.documentElement.getElementsByTagName("POSITION").item(i).text)
+  document.write("</td><td>");
+  document.write(domDocument.documentElement.getElementsByTagName("SUBVISION").item(i).text)
+  document.write("</td></tr>");
+}
+document.write("</table>"); 
+</script>
+  </body>
+</html>
