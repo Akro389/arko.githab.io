@@ -10,7 +10,7 @@
 <script language="JavaScript" type="text/javascript">
   var domDocument = new ActiveXObject("Microsoft.XMLDOM");
   domDocument.async="false";
-  domDocument.load("Lab10.xml");
+  domDocument.load("https://github.com/Akro389/arko.githab.io/edit/main/WEB/Lab10/Lab10.xml");
   document.write("<table border='1' cellspacing='0' cellpadding='4'><tr><th class='t1'>Фамилия</th><th class='t1'>Имя</th><th class='t1'>Отчество</th><th class='t2'>Адресс</th><th class='t3'>Телефон</th><th class='t4'>Должность</th><th class='t4'>Подразделение</th></tr>");
   var x = domDocument.getElementsByTagName("DATABASE")[0].childNodes[0];
   for (i=0; i < 10; i++)
